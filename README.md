@@ -194,11 +194,7 @@ Check accuracy using metrics:
 - Happy Dataset: N=50,000 numbers, features include start, iterations, happy/unhappy label.
 
 ---
-Ahh ✅ got it — you’re asking for the **actual metrics (accuracy, R², etc.)** of the trained models, not just the descriptions.
 
-Let me break it down with the models we trained in the last script (`train.py`):
-
----
 
 ## 📊 Model Evaluation Results
 
