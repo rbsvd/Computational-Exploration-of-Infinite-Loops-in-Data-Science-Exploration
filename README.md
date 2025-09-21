@@ -283,5 +283,4 @@ Check accuracy using metrics:
 ## 🏁 10. Conclusion
 This project demonstrates how *unsolved mathematical problems* can be reimagined with a *data science lens. While ML cannot prove theorems, it can uncover **patterns, distributions, and predictive structures. The combination of theory, dataset generation, training, and evaluation forms a **complete industrial-level pipeline*, which can be extended to research and advanced applications.
 
-$$
-
+For access of diret datasets and trained models run another notebook in your machine!!!
