@@ -37,11 +37,6 @@ f(n) =
 \end{cases}
 $$
 
-$$f(n) = \begin{cases} 
-\; n/2 & \text{if } n \text{ is even} \\
-\; 3n + 1 & \text{if } n \text{ is odd}
-\end{cases} \]
-
 You then repeat this process on the result, forming a sequence.
 
 #### Example: n = 6
@@ -89,11 +84,6 @@ $$
 - 1² + 0² + 0² = 1 → *Happy* ✅
 
 If instead it falls into a loop that never reaches 1, it is *unhappy*.
-
-### *Mathematical Formula:*
-For a number with digits \(d_1, d_2, d_3, ... d_k\):
-
-\[ f(n) = d_1^2 + d_2^2 + d_3^2 + ... + d_k^2 \]
 
 Repeat until result = 1 (happy) or falls into cycle (unhappy).
 
