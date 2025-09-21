@@ -27,6 +27,16 @@ The *Collatz conjecture* is a famous unsolved problem in mathematics, proposed b
 
 ### *Collatz Formula:*
 
+### **Collatz Conjecture Formula**
+
+$$
+f(n) =
+\begin{cases} 
+\dfrac{n}{2} & \text{if } n \text{ is even} \\
+3n + 1 & \text{if } n \text{ is odd}
+\end{cases}
+$$
+
 $$f(n) = \begin{cases} 
 \; n/2 & \text{if } n \text{ is even} \\
 \; 3n + 1 & \text{if } n \text{ is odd}
@@ -61,6 +71,16 @@ We then train ML models to *predict sequence properties* given a number.
 
 ### *What are Happy Numbers?*
 A number is called *happy* if repeatedly summing the squares of its digits eventually leads to 1.
+
+### **Happy Number Formula**
+
+If $n$ has digits $d_1, d_2, \dots, d_k$:
+
+$$
+f(n) = d_1^2 + d_2^2 + \dots + d_k^2
+$$
+
+> Repeat $f(n)$ until $n = 1$ (happy) or enters a cycle (unhappy).
 
 #### Example: n = 19
 - 1² + 9² = 82
