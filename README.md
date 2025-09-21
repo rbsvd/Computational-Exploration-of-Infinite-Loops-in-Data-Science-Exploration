@@ -27,65 +27,6 @@ The *Collatz conjecture* is a famous unsolved problem in mathematics, proposed b
 
 ### *Collatz Formula:*
 
-Collatz Conjecture
-𝑓
-(
-𝑛
-)
-=
-{
-𝑛
-/
-2
-	
-if 
-𝑛
- is even
-
-
-3
-𝑛
-+
-1
-	
-if 
-𝑛
- is odd
-f(n)={
-n/2
-3n+1
-	​
-
-if n is even
-if n is odd
-	​
-
-
-Iterating 
-𝑛
-𝑘
-+
-1
-=
-𝑓
-(
-𝑛
-𝑘
-)
-n
-k+1
-	​
-
-=f(n
-k
-	​
-
-) forms the Collatz sequence.
-
-Stopping time (T(n)): number of steps to reach 1
-
-Peak (M(n)): maximum value reached
-
 $$f(n) = \begin{cases} 
 \; n/2 & \text{if } n \text{ is even} \\
 \; 3n + 1 & \text{if } n \text{ is odd}
